@@ -7,5 +7,13 @@
     "css": "",
     "author": "Cohee1207",
     "version": "1.0.4",
-    "homePage": "https://github.com/Cohee1207/Extension-Shit"
+    "homePage": "https://github.com/Cohee1207/Extension-Shit",
+    "hooks": {
+        "install": "onInstall",
+        "delete": "onDelete",
+        "activate": "onActivate",
+        "disable": "onDisable",
+        "enable": "onEnable",
+        "update": "onUpdate"
+    }
 }
