@@ -30,7 +30,7 @@ export function onEnable() {
 }
     
 export function onDisable() {   
-    return Promise.of(toastr.success('Extension enabled'));
+    return Promise.of(toastr.success('Extension disabled'));
 }
 
 export function onUpdate() {
